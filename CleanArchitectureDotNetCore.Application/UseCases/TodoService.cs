@@ -1,13 +1,10 @@
 ﻿using CleanArchitectureDotNetCore.Application.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CleanArchitectureDotNetCore.Domain.Entities;
+using CleanArchitectureDotNetCore.Domain.Interfaces;
 
 namespace CleanArchitectureDotNetCore.Application.UseCases;
 
-internal class TodoService
+public class TodoService
 {
     private readonly ITodoRepository _repository;
 

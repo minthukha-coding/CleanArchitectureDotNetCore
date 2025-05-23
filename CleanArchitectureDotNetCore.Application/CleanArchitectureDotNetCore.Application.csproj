@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureDotNetCore.Domain\CleanArchitectureDotNetCore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
